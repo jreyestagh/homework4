@@ -6,7 +6,6 @@
             type: Number,
             require: true, 
         }
-
     })
 
 </script>
