@@ -22,7 +22,7 @@ const onSubmit= () =>{
 </script>
 
 <template>
-    <h3>Add a new Transaction</h3>
+    <h3>Add a New Transaction</h3>
     <form id="form" @submit.prevent="onSubmit">
         <div class="form-control">
             <label for="text">Enter Transaction</label>
