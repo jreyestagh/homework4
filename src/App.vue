@@ -33,6 +33,7 @@
 
   const handleTransaction = (transactionData) => {
     transactions.value.push({
+      id: generateID(),
       text: transactionData.text,
       amount: transactionData.amount,
   })
